@@ -7,7 +7,7 @@ public class Estadistica {
     }
 
     public void calcularEstadistica(Equipo equipo){
-        System.out.println("Calculando estadísticas del equipo: " + equipo.getnombreEquipo());
+        System.out.println("Calculando estadísticas del equipo: " + equipo.getNombreEquipo());
     }
 
     public void calcularEstadistica(Jugador jugador){

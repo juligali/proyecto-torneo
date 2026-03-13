@@ -42,4 +42,9 @@ public class Torneo {
     public void agregarPartido(Partido partido){
         partidos.add(partido);
     }
+
+    public String getNombre(){
+        return nombre;
+    }
+
 }
