@@ -9,4 +9,11 @@ public class Evento {
         this.fecha = fecha;
         this.descripcion = descripcion;
     }
+
+    // este metodo no se usa
+    public String getDetalleEvento() {
+        return "Tipo: " + tipo +
+                " | Fecha: " + fecha +
+                " | Descripción: " + descripcion;
+    }
 }

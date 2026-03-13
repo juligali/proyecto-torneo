@@ -7,6 +7,7 @@ public class Partido {
 
     private Equipo equipo1;
     private Equipo equipo2;
+// equipo y partido relacon asociacion
 
     public Partido(String fecha, String hora) {
         this.fecha = fecha;

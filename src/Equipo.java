@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Equipo {
-
+//equipo y jugador tiene relacion de agregacion
     private String nombreEquipo;
     private String ciudadOrigen;
     private List<Jugador> jugadores;
@@ -19,5 +19,8 @@ public class Equipo {
 
     public void eliminarJugador(Jugador jugador){
         jugadores.remove(jugador);
+    }
+    public String getNombreEquipo(){
+        return nombreEquipo;
     }
 }
